@@ -1,0 +1,16 @@
+{
+	"priya-version": {
+        "path": "/version",        
+        "controller": "Controller.Js.version",
+        "method": [
+            "CLI"            
+        ]
+    },
+	"priya-create": {
+        "path": "/create",        
+        "controller": "Controller.Js.create",
+        "method": [
+            "CLI"            
+        ]
+    }
+}

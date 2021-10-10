@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  priya:
+    container_name: script
+    image: script
+    restart: always
+    build:
+      dockerfile: ./Docker/Io/Dockerfile
+      context: .
+    working_dir: /Application
+    volumes:
+      - .:/Application
+    ports:
+      - "2603:80"
+    networks:
+      - r3m-network
+networks:
+    r3m-network:
+      driver: bridge
