@@ -1,5 +1,5 @@
 .idea/
-Bin/
+/Bin/
 Data/Config.json
 Data/Compile/
 Data/Cache/
