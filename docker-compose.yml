@@ -12,7 +12,7 @@ services:
     volumes:
       - .:/Application
     ports:
-      - "2603:80"
+      - "2627:80"
     networks:
       - r3m-network
 networks:
